@@ -9,14 +9,20 @@
 const sampleWords = ['dog', 'blueberry', 'alabama', 'earth', 'football'];
 
 // Problem 1
+const words = sampleWords
 const printEveryWord = (words) => {
-
+  return sampleWords
 };
+console.log(words)
 
 // Problem 2
+
 const getStringLengths = (strings) => {
+  return strings.length
 
 };
+console.log(strings)
+//i  would use index command 
 
 // Problem 3
 const sortWordsZtoA = (words) => {
@@ -33,6 +39,8 @@ const sampleNumbers = [7, 3, 9, 1, 4, 8, 2, 10, 5, 6];
 const getEvenNumbers = (nums) => {
 
 };
+console.log(getEvenNumbers(sampleNumbers));
+// i would use filter and map method
 
 // Problem 5
 const getLargestNumber = (numbers) => {
